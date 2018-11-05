@@ -1,5 +1,5 @@
 $(updateView)
 
 function updateView() {
-    alert("My program is alive!")
+    alert("Sea horses aren't real!")
 }
