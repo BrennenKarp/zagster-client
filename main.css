@@ -1,14 +1,13 @@
 body {
-    font-family: "HelveticaNeue";
-    background-color:#0076A8;  
+    font-family: "HelveticaNeue";  
   }
 h2 {
     font-family: "Linex Sans Bold";
     font-size: 25pt;
-    color: white;
+    color:#5BC2E7;
 }
 h1 {
-    color:white;
+    color:#5BC2E7;
     text-align: center;
     font-size: 35px;
     font-family: "True North";
@@ -17,7 +16,7 @@ h1 {
     outline-width: 7px; 
 }
 p{
-    color:white;
+    color:#5BC2E7;
     font-family: Arial;
     text-align: left;
     text-indent: 20px;

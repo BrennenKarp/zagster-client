@@ -8,6 +8,7 @@
     <link href="main.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
   </head>
   <body>
     <header class="masthead bg-primary text-white text-center">
@@ -39,23 +40,31 @@
       </div>
     </section>
   
-    <canvas id="myChart" width="400" height="400"></canvas>
+<canvas id="myChart" width="400" height="400"></canvas>
 <script>
 var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
         datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            label: 'Zagster Rides Per Month (2017)',
+            data: [20, 31, 79, 88, 156, 301, 405, 187, 401, 353, 113, 79],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
                 'rgba(255, 206, 86, 0.2)',
                 'rgba(75, 192, 192, 0.2)',
                 'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(255, 132, 75, 0.2',
+                'rgba(67, 101, 34, 0.2)',
+                'rgba(119, 111, 78, 0.2)',
+                'rgba(201, 22, 121, 0.2',
+                'rgba(69, 156, 46, 0.2)',
+                'rgba(134, 101, 98, 0.2)'
+                
+                
             ],
             borderColor: [
                 'rgba(255,99,132,1)',
@@ -63,7 +72,14 @@ var myChart = new Chart(ctx, {
                 'rgba(255, 206, 86, 1)',
                 'rgba(75, 192, 192, 1)',
                 'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                'rgba(255, 159, 64, 1)',
+                'rgba(255, 132, 75, 1)',
+                'rgba(67, 101, 34, 1)',
+                'rgba(119, 111, 78, 1)',
+                'rgba(201, 22, 95, 1)',
+                'rgba(69, 156, 46, 1)',
+                'rgba(134, 101, 98, 1)'
+                
             ],
             borderWidth: 1
         }]
