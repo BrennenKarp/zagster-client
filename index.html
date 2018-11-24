@@ -2,6 +2,12 @@
 <html lang="en">
 
   <head>
+    <ul>
+      <li><a href="https://docs.google.com/document/u/1/d/e/2PACX-1vTBbeHJ_zjG96aSlFM9IAJb25aw9IiM26vk7wakd2cUY610HEnCWXeJ3ZzuzqvzFJxf178sw7KDVVYF/pub">Resume</a></li>
+      <li><a href="https://github.com/BrennenKarp">Github Account</a></li>
+      <li><a href="https://stackoverflow.com/users/10438647/brennenk">Stack Overflow Account</a></li>
+      <li><a href="https://brennenkarp.github.io/BrennenKarp.github.io/">Portfolio Page</a></li>
+    </ul>
     <title>Zagster Data Visualization</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -12,7 +18,7 @@
   </head>
   <body>
     <header class="masthead bg-primary text-white text-center">
-      <div class="container">
+      <div id="container1">
         <img class="img-fluid mb-5 d-block mx-auto" src="zagster.png" alt="">
         <h1 class="text-uppercase mb-0">Zagster Data Visualization</h1>
         <hr class="star-light">
@@ -40,7 +46,7 @@
       </div>
     </section>
   
-<canvas id="myChart" width="400" height="400"></canvas>
+<canvas id="myChart"></canvas>
 <script>
 var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {

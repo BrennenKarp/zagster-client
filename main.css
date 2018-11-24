@@ -1,5 +1,6 @@
 body {
-    font-family: "HelveticaNeue";  
+    font-family: "HelveticaNeue"; 
+    background-color: white; 
   }
 h2 {
     font-family: "Linex Sans Bold";
@@ -26,9 +27,38 @@ p{
 img{
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 50%;
+    height: 50%;
     padding: 75px;
+    object-fit: contain;
     display: block;
     background-image: url("dark.jpg");
 }
+canvas#myChart{
+height: 100px;
+width: 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #5BC2E7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
