@@ -14,6 +14,7 @@
     <link href="main.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
   </head>
   <body>
@@ -46,16 +47,17 @@
       </div>
     </section>
   
+    
 <canvas id="myChart"></canvas>
 <script>
-var ctx = document.getElementById("myChart");
+var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
         labels: ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
         datasets: [{
             label: 'Zagster Rides Per Month (2017)',
-            data: [20, 31, 79, 88, 156, 301, 405, 187, 401, 353, 113, 79],
+            data: chartData,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',

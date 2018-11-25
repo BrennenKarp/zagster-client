@@ -1,0 +1,26 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zagster with JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="snow.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+</head>
+<body>
+    
+    <h1>Zagster Data</h1>
+    <P>Total ride growth over time, taken from actual data pertaining to the number of rides taken from 9/2016 until 10/2018</P>
+    <p>Numbers pulled from actual data provided by the City of Bend and stored on a web server. Data is being pulled real time and displayed through the use of JavaScript/HTML/CSS and a SQL server hosted online. Number of rides in data:</p>
+    <h2 id="rideCount">TODO</h2>
+    <center><div id="chartContainer"><canvas id="myChart"></canvas></div></center>
+    
+</body>
+</html>
+
+
+
