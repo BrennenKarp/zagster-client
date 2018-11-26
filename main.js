@@ -15,10 +15,10 @@ function updateRideCount(data) {
 
 function getData(data) {
     rideData = data;
-    console.log(rideData);
+    console.log(rideData[2017]);
 } 
-for ( var i = [0]; i <= [11]; ++i){
-chartData.push(rideData[2017] [i] [i+1]);
+for ( var i = [2017][0]; i <= [2017][11]; ++i){
+chartData.push(rideData[2017][i][month]);
 }
 
 
