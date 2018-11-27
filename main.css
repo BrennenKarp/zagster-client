@@ -34,10 +34,7 @@ img{
     display: block;
     background-image: url("dark.jpg");
 }
-canvas#myChart{
-height: 100px;
-width: 100px;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
