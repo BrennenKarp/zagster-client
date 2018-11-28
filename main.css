@@ -103,3 +103,10 @@ canvas{
 div.chartContainer{
 background-color:#5BC2E7;
 }
+div.About{
+    background-color: blue;
+    Height: auto;
+    Width: auto;
+    margin: auto;
+    ;
+}
