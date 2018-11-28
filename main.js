@@ -33,9 +33,7 @@ function prepareCountsPerMonth(data) {
     console.log(data['2017'][0]['1']);
     console.log(chartData);
 } 
-// for (var i = 0; i <=11; ++i){
-//     chartData.push(rideData[2017] [i] [i+1]);
-// }
+
 
 function displayChart() {
     var ctx = document.getElementById("myChart").getContext('2d');
